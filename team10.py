@@ -37,7 +37,7 @@ def move(my_history, their_history, my_score, their_score):
     elif 'b' in their_history[-1:]:
         return 'c'
     else:
-        return 'c'
+        return
 
     
 def test_move(my_history, their_history, my_score, their_score, result):
